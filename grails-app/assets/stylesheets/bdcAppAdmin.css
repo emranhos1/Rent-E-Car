@@ -1,0 +1,13 @@
+/*
+* This is a manifest file that'll be compiled into bdcApp.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+*= require_self
+*
+*= require bootstrap
+*= require bdc/style
+*= require bdc/jquery-confirm.min
+*= require font-awesome/css/all.min
+*/

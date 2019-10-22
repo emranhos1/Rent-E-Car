@@ -25,3 +25,12 @@ This service collect data from various place in country and Those Data use for @
    (File Location : `Rent-E-Car/grails-app/config/application.yml`)
    
 3. Run Project.
+
+# Login Information
+1. Username : admin
+2. Password : admin
+
+or
+
+1. Username : emranhos1
+2. Password : 123456

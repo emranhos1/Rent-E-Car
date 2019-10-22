@@ -30,11 +30,14 @@ class BDCUIHelperTagLib {
         out << g.link(controller: "outlet", action: "index", class: "nav-link"){g.message(code:"outlet.details")}
         out << '</li><li class="nav-item active">'
         out << g.link(controller: "rentECar", action: "index", class: "nav-link"){g.message(code:"rentECar.details")}
+        out << '</li><li class="nav-item active">'
+        out << g.link(controller: "main", action: "resetPassword", class: "nav-link"){g.message(code:"reset.password")}
         out << '</li>'
         out << '</ul></div>'
         out << '<li class="nav-item dropdown show">'
         out << g.link(class:"nav-link dropdown-toggle", "data-toggle":"dropdown"){/*g.message(code:"admin.name")*/ authenticationService.getAdminName()}
         out << '<div class="dropdown-menu">'
+        out << g.link(controller: "main", action: "resetPassword", class: "dropdown-item"){g.message(code:"reset.password")}
         out << g.link(controller: "authentication", action: "logout", class: "dropdown-item"){g.message(code:"logout")}
         out << "</div></li>"
     }

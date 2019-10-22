@@ -16,5 +16,8 @@ This service collect data from various place in country and Those Data use for @
 3. Use This Command For Clone : `git clone https://github.com/emranhos1/Rent-E-Car.git` 
 
 # How To Run
-1. At First Import `bdc.sql` File into your local mySQL Database (File Location : `Rent-E-Car/bdc.sql`)
-2. Run Project.
+1. At First Import `bdc.sql` File into your local mySQL Database. 
+   (File Location : `Rent-E-Car/bdc.sql`)
+2. Change Database username and passwrod in `application.yml`. 
+   (File Location : `Rent-E-Car/grails-app/config/application.yml`)
+3. Run Project.

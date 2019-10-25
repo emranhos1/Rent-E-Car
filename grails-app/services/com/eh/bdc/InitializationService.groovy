@@ -16,6 +16,7 @@ class InitializationService {
         def firstName = ["Admin", "Md. Emran"]
         def lastName = ["admin", "Hossain"]
         def password = ["admin", "123456"]
+        def phoneNo = ["01670932273", "01715909280"]
         if (Admin.count() == 0) {
             for (int i = 0; i < 2; i++) {
                 Admin admin = new Admin()
@@ -23,6 +24,7 @@ class InitializationService {
                 admin.firstName = firstName[i]
                 admin.lastName = lastName[i]
                 admin.password = password[i]
+                admin.phoneNo = phoneNo[i]
                 admin.save(flash: true)
             }
         }

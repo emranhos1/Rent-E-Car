@@ -11,11 +11,13 @@ class Admin {
     String password
     String firstName
     String lastName
+    String phoneNo
     static constraints = {
         username(nullable: false, unique: true, blank: false)
         password(blank: false)
         firstName(nullable: false)
         lastName(nullable: false)
+        phoneNo(nullable: false)
     }
 
     def beforeInsert (){

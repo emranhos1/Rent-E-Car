@@ -22,7 +22,7 @@ This service collect data from various place in country and Those Data use for @
    
 2. Change Database username and passwrod in `application.yml`. 
    
-   (File Location : `Rent-E-Car/grails-app/config/application.yml`)
+   (File Location : `Rent-E-Car/grails-app/conf/config/application.yml`)
    
 3. Run Project.
 
